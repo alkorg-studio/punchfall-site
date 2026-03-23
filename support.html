@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PunchFall Support | Alkorg Studio</title>
+  <style>
+    :root {
+      --bg: #05070b;
+      --panel: rgba(255,255,255,0.06);
+      --text: #f5f7fb;
+      --muted: #a8b0c0;
+      --line: rgba(255,255,255,0.12);
+      --blue: #22d8ff;
+      --pink: #ff3fb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(34,216,255,0.16), transparent 35%),
+        radial-gradient(circle at top right, rgba(255,63,180,0.14), transparent 30%),
+        var(--bg);
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .panel {
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--panel);
+      backdrop-filter: blur(10px);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    p, li {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    a { color: var(--blue); }
+    .section {
+      margin-top: 24px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.04);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <h1>PunchFall Support</h1>
+      <p>If you need help with PunchFall, contact:</p>
+      <p><a href="mailto:alkorgstudio.support@gmail.com">alkorgstudio.support@gmail.com</a></p>
+      <p>Please include your device model, iOS version, and a short description of the issue.</p>
+    </div>
+
+    <div class="section">
+      <h2>Common Topics</h2>
+      <ul>
+        <li>Camera access is required for gameplay</li>
+        <li>Game Center sign-in is required for leaderboard participation</li>
+        <li>Apple Watch features require a paired watch and installed companion app</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li>Check that camera permission is enabled in iPhone Settings</li>
+        <li>Make sure Game Center is signed in if leaderboards are unavailable</li>
+        <li>Restart the app if the camera preview or tracking does not initialize correctly</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
